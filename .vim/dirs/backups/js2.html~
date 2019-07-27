@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <p onclick="document.write(Hi)">some text</p>
+    </body>
+</html>

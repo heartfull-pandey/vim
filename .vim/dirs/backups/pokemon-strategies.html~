@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+    <table border="2px">    
+ <tr>
+<td style="text-align: center;"><strong>Pokemon Type</strong></td>
+<td style="text-align: center;"><strong>Strong Against</strong></td>
+<td style="text-align: center;"><strong>Weak Against</strong></td>
+<td style="text-align: center;"><strong>Other</strong></td>
+</tr>
+<tr>
+<td style="text-align: center;">Bug</td>
+<td>Dark, Grass, Psychic</td>
+<td>Fire, Flying, Rock</td>
+<td style="text-align: center;">N/A</td>
+</tr>
+<tr>
+<td style="text-align: center;">Dark</td>
+<td>Ghost, Psychic</td>
+<td>Bug, Fairy, Fight</td>
+<td>Immune to Psychic</td>
+</tr>
+<tr>
+<td style="text-align: center;">Dragon</td>
+<td>Dragon</td>
+<td>Dragon, Fairy, Ice</td>
+<td>Not Effective Against Fairy</td>
+</tr>
+<tr>
+<td style="text-align: center;">Electric</td>
+<td>Flying, Water</td>
+<td>Ground</td>
+<td>Not Effective Against Ground</td>
+</tr>
+<tr>
+<td style="text-align: center;">Fairy</td>
+<td>Dark, Dragon, Fight</td>
+<td>Poison, Steel</td>
+<td>Immune to Dragon</td>
+</tr>
+<tr>
+<td style="text-align: center;">Fighting</td>
+<td>Dark, Ice, Normal, Rock, Steel</td>
+<td>Fairly, Flying, Psychic</td>
+<td>Not Effective Against Ghost</td>
+</tr>
+<tr>
+<td style="text-align: center;">Fire</td>
+<td>Bug, Grass, Ice, Steel</td>
+<td>Ground, Rock, Water</td>
+<td style="text-align: center;">N/A</td>
+</tr>
+<tr>
+<td style="text-align: center;">Flying</td>
+<td>Bug, Fight, Grass</td>
+<td>Electric, Ice, Rock</td>
+<td>Immune to Ground</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ghost</td>
+<td>Ghost, Psychic</td>
+<td>Dark, Ghost</td>
+<td>Immune to Fight, Normal; Not Effective Against Normal</td>
+</tr>
+<tr>
+<td style="text-align: center;">Grass</td>
+<td>Ground, Rock, Water</td>
+<td>Bug, Fire, Flying, Ice, Poison</td>
+<td style="text-align: center;">N/A</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ground</td>
+<td>Electric, Fire, Poison, Rock, Steel</td>
+<td>Grass, Ice, Water</td>
+<td>Immune to Electric; Not Effective Against Flying</td>
+</tr>
+<tr>
+<td style="text-align: center;">Ice</td>
+<td>Dragon, Flying, Grass, Ground</td>
+<td>Fight, Fire, Rock, Steel</td>
+<td style="text-align: center;">N/A</td>
+</tr>
+<tr>
+<td style="text-align: center;">Normal</td>
+<td>None</td>
+<td>Fight</td>
+<td>Immune to Ghost; Not Effective Against Ghost</td>
+</tr>
+<tr>
+<td style="text-align: center;">Poison</td>
+<td>Fairy, Grass</td>
+<td>Ground, Psychic</td>
+<td>Not Effective Against Steel</td>
+</tr>
+<tr>
+<td style="text-align: center;">Psychic</td>
+<td>Fight, Poison</td>
+<td>Bug, Dark, Ghost</td>
+<td>Not Effective Against Dark</td>
+</tr>
+<tr>
+<td style="text-align: center;">Rock</td>
+<td>Bug, Fire, Flying, Ice</td>
+<td>Fight, Grass, Ground, Steel, Water</td>
+<td style="text-align: center;">N/A</td>
+</tr>
+<tr>
+<td style="text-align: center;">Steel</td>
+<td>Fairy, Ice, Rock</td>
+<td>Fight, Fire, Ground</td>
+<td>Immune to Poison</td>
+</tr>
+<tr>
+<td style="text-align: center;">Water</td>
+<td>Fire, Ground, Rock</td>
+<td>Electric, Grass</td>
+<td style="text-align: center;">N/A</td>
+</tr>
+</table>
+</table></div>
+
+    </body>
+</html>
+

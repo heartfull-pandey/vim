@@ -1,0 +1,13 @@
+function person(name, age) {
+    this.name = name;  
+    this.age = age;
+    this.changeName = function (name) {
+        this.name = name;
+    }
+}
+
+var p = new person("David", 21);
+ var user = prompt("Please enter your name");
+p.changeName(user);
+
+document.write(p.name);

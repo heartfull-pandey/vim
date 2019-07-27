@@ -1,0 +1,4 @@
+# This is git ignoring file.
+# putting file name into this file will be ignored.
+*/.DS_Store
+

@@ -1,0 +1,100 @@
+    align-text: center ;,V
+  this.props.username = "Asif"    ,V
+// #3,V
+// #2,V
+// #1,V
+,V
+*/,V
+2. Fix the small bug,V
+1. Convert all 3 components to be class-based,V
+Challenge:,V
+/*,V
+    -->,V
+      To create a production bundle, use `npm run build` or `yarn build`.,V
+      To begin the development, run `npm start` or `yarn start`.,V
+      The build step will place the bundled scripts into the <body> tag.,V
+      You can add webfonts, meta tags, or analytics to this file.,V
+      If you open it directly in the browser, you will see an empty page.,V
+      This HTML file is a template.,V
+    <!--,V
+      Learn how to configure a non-root public URL by running `npm run build`.,V
+      work correctly both with client-side routing and a non-root public URL.,V
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will,V
+      Only files inside the `public` folder can be referenced from the HTML.,V
+      It will be replaced with the URL of the `public` folder during the build.,V
+      Notice the use of %PUBLIC_URL% in the tags above.,V
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />,V
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/,V
+      manifest.json provides metadata used when your web app is installed on a,V
+    <meta name="theme-color" content="#000000" />,V
+    <meta name="viewport" content="width=device-width, initial-scale=1" />,V
+},V
+  },V
+    ),V
+        <h1>Good {timeOfDay} to you, sir or madam!</h1>,V
+    return (,V
+    },V
+        timeOfDay = "night",V
+    } else {,V
+        timeOfDay = "afternoon",V
+    } else if (hours >= 12 && hours < 17) {,V
+        timeOfDay = "morning",V
+    if (hours < 12) {,V
+    ,V
+    let timeOfDay,V
+    const hours = date.getHours(),V
+    const date = new Date(),V
+    render() {,V
+class Greeting extends Component {,V
+        </header>,V
+            <p>Welcome, {this.props.username}!</p>,V
+        <header>,V
+      ,V
+  render() {,V
+class Header extends Component {,V
+        </div>,V
+            <Greeting />,V
+            <Header username="Injamul" />,V
+        <div>,V
+class App extends Component {,V
+        </ul>,V
+          ,V
+        <li>By email: mrinjamul@gmail.com</li>,V
+<ul>,V
+<p>If you have any questions about this Privacy Policy, please contact us:</p>,V
+<h2>Contact Us</h2>,V
+<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>,V
+<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>,V
+<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>,V
+<h2>Changes To This Privacy Policy</h2>,V
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>,V
+<p>Our Service does not address anyone under the age of 18 ("Children").</p>,V
+<h2>Children's Privacy</h2>,V
+<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>,V
+<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>,V
+<h2>Links To Other Sites</h2>,V
+<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>,V
+<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>,V
+<h2>Service Providers</h2>,V
+<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>,V
+<h2>Security Of Data</h2>,V
+</ul>,V
+    <li>To protect against legal liability</li>,V
+    <li>To protect the personal safety of users of the Service or the public</li>,V
+    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>,V
+    <li>To protect and defend the rights or property of Injamul Mohammad Mollah</li>,V
+    <li>To comply with a legal obligation</li>,V
+<p>Injamul Mohammad Mollah may disclose your Personal Data in the good faith belief that such action is necessary to:</p>,V
+<h3>Legal Requirements</h3>,V
+<h2>Disclosure Of Data</h2>,V
+<p>Injamul Mohammad Mollah will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>,V
+<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>,V
+<p>If you are located outside India and choose to provide information to us, please note that we transfer the data, including Personal Data, to India and process it there.</p>,V
+<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>,V
+<h2>Transfer Of Data</h2>,V
+    <li>To detect, prevent and address technical issues</li>,V
+    <li>To monitor the usage of the Service</li>,V
+    <li>To provide analysis or valuable information so that we can improve the Service</li>,V
+    <li>To provide customer care and support</li>,V
+    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>,V
+    <li>To notify you about changes to our Service</li>,V

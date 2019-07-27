@@ -1,0 +1,109 @@
+//javascript 1
+
+var x=10;
+
+document.write("Hello World!");
+document.write(x);
+var sayHello = '<br/>\n Hello world! \'I am a JavaScript programmer.\'<br/> ';
+document.write(sayHello);
+eval("10 * 20 + 8")
+var mystring1 = "I am learning ";
+var mystring2 = "JavaScript with SoloLearn.<br/>";
+document.write(mystring1 + mystring2);
+//for loop
+for (i=1; i<=5; i++) {
+   document.write(i + "<br />");
+}
+//while
+var i=0;
+while (i<=10) {
+   document.write(i + "<br />");
+   i++;
+}
+//do...while
+var i=20;
+do {  
+  document.write(i + "<br />");
+  i++;  
+}
+while (i<=25); 
+//break
+for (i = 0; i <= 10; i++) {
+   if (i == 5) {
+     break; 
+   }
+   document.write(i + "<br />");
+}
+//continue
+for (i = 0; i <= 10; i++) {
+   if (i == 5) {
+      continue; 
+   }
+   document.write(i + "<br />");
+}
+//function usages
+function myFunction() {
+   alert("Alert box!");
+}
+
+myFunction();
+//"Alert box!"
+
+// some other code
+
+myFunction();
+//"Alert box!"
+//function parameters
+function sayHello(name) {
+   alert("Hi, " + name);
+}
+
+sayHello("David");
+//Alerts "Hi, David"
+
+//multiply parameters
+function sayHello(name, age) {
+    document.write( name + " is " + age + " years old.");
+}
+
+sayHello("John", 20)
+
+//return
+function myFunction(a, b) {
+   return a * b;
+}
+
+var x = myFunction(5, 6); 
+// Return value will end up in x
+// x equals 30
+
+var user = prompt("Please enter your name");
+alert(user);
+//array
+var courses = new Array("HTML", "CSS", "JS"); 
+var course = courses[0]; // HTML
+courses[1] = "C++"; //Changes the second element 
+//another way to array
+var courses = new Array(3);
+courses[0] = "HTML";
+courses[1] = "CSS";
+courses[2] = "JS";
+//array method concat()
+var c1 = ["HTML", "CSS"];
+var c2 = ["JS", "C++"];
+var courses = c1.concat(c2);
+
+document.write(courses[3]);
+//get time
+function printTime() {
+    var d = new Date();
+    var hours = d.getHours();
+    var mins = d.getMinutes();
+    var secs = d.getSeconds();
+    document.body.innerHTML = hours+":"+mins+":"+secs;
+}
+setInterval(printTime, 1000);
+
+
+
+

@@ -1,0 +1,11 @@
+import React from "react"
+
+function App() {
+    return(
+    <div>
+        This App is made for testing react program.
+    </div>
+    )
+}
+
+export default App

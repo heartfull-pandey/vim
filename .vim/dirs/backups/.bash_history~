@@ -1,0 +1,1643 @@
+sudo reboot 
+sudo apt-get autoremove 
+sudo apt-get autoclean 
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo reboot 
+cd ..
+ls
+mkdir fb-demo
+cd fb-demo/
+git init
+echo "# facebook demo" >> README.md
+git add README.md 
+git status -s
+git commit -m "Initial commit"
+git status -s
+git show
+git diff
+mkdir images
+mkdir data
+mkdir pages
+touch  index.html
+git commit -m "added index.html and bg"
+git add index.html 
+git commit -m "added index.html"
+git add images/bg.png 
+git commit -m "added background"
+git status -s
+git log
+cd pages/
+ls
+touch profile.html
+git add profile.html 
+cd ..
+git status -s
+git status 
+git status -s
+git add pages/profile.html 
+git add pages/profile.html index.html 
+git status -s
+git commit -m "added profile.html"
+git status -s
+git show
+git diff
+git status -s
+git log
+git status -s
+git add profile.html 
+git commit -m "rearranged directory structure"
+ls
+git status -s
+git remove pages/profile.html
+git rm pages/profile.html
+git status -s
+git add index.html 
+git status -s
+git commit -m "modified index.html"
+ls
+git ls
+git status -s
+git log
+git status -s
+add index.html profile.html 
+git add index.html profile.html 
+LS
+git status -s
+git push
+git pull
+cd ..
+exit
+mkdir test
+mv test.html test/
+cd test/
+ls
+mv test.html test-01.html 
+touch test-02.html 
+touch test-03.html 
+touch test-004.html 
+mv test-004.html test-04.html
+ls
+ls  -1
+cd ..
+cd Git/
+ls
+mv fb-demo/ page-demo
+cd page-demo/
+ls
+git mv profile.html about.html
+git status 
+git status -s
+git add about.html index.html 
+git status -s
+git commit -m "modified index"
+git status 
+git status -s
+git show
+git touch contact_us.html
+touch contact_us.html
+git status -s
+git add about.html index.html contact_us.html 
+git commit -m "added contact_us and modified"
+git status -s
+git log
+ls
+git reset --HEAD "added README.md"
+git reset --hard "added README.md"
+git reset --hard 
+ls
+git reset --hard added README.md
+git log
+git reset --hard "Initial commit"
+git reset --hard Initial commit
+git show
+git status 
+git branch v_1.1
+git checkout v_1.1 
+ls
+vim index.html 
+git commit -m "modified"
+git add index.html 
+git commit -m "modified"
+git log
+git checkout master 
+git merge v_1.1 
+git branch
+git branch -d v_1.1 
+git branch
+git log
+cat index.html 
+git branch
+git branch v_1.1
+git checkout v_1.1 
+ls
+git status -s
+git checkout master 
+git status -s
+git checkout v_1.1 
+vim index.html 
+git status -s
+git checkout master 
+git status -s
+cat index.html 
+git branch -d v_1.1 
+git status -s
+vim index.html 
+git status -s
+ls
+git branch
+cat L
+cat LICENSE 
+cat CHANGELOG 
+cd Linux/
+ls
+at la
+at laZagne.py 
+cat laZagne.py 
+ls
+git init
+git add --all
+git status -s
+git commit -m "Initial commit"
+git status -s
+git show
+git log
+cd ..
+ls
+cd LaZagne/
+ls
+git log
+git ls
+ls
+exit
+ls
+cd Injamul/
+cat >> myfile
+ls
+cat myfile 
+cat >> myfile
+cat myfile 
+nano myfile 
+rm myfile 
+ls
+cd ..
+cd temp/
+ls
+more history.txt 
+mail
+who am i
+whoami
+wc history.txt 
+grep ls history.txt 
+gref hist
+grep hist
+sort -n history.txt 
+tail +5 history.txt 
+tail +1 history.txt 
+tail + history.txt 
+tail -2 history.txt 
+cat history.txt 
+more history.txt 
+tail +2 history.txt 
+tail 2+ history.txt 
+tail + 2 history.txt 
+tail -+2 history.txt 
+cd ..
+diff .bash_history .bash_history.old 
+cmp .bash_history .bash_history.old 
+cd temp/
+pr history.txt 
+ls
+ps
+ps -ag
+more
+who
+who | wc -l
+ls | more
+ls | wc -l
+who | grep history.txt 
+who | grep 
+who | grep asif
+logout
+cat id_rsa.key 
+adb 
+adb devices
+apt-get update 
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get install dropbox
+clear
+cd Injamul/project/Git/
+ls
+cd c-program/
+git pull
+git push 
+cd ..
+cd c-learning/
+git remote add origin https://github.com/unknowndev4652/c-learning.git
+git push -u origin master 
+ls ..
+cd ../page-demo/
+git remote add origin https://github.com/unknowndev4652/page-demo.git
+git push -u origin master 
+ls ..
+cd ../LaZagne/
+git init
+git remote add origin https://github.com/unknowndev4652/LaZange.git
+git push -u origin master 
+git remote remove origin https://github.com/unknowndev4
+git remote rm origin https://github.com/unknowndev4652/LaZange.git
+rm -rf .git
+git init
+git remote add origin https://github.com/unknowndev4652/LaZagne.git
+git push -u origin master 
+git add -all
+git add --all
+git status -s
+git commit -m "Initial commit"
+git status -s
+git log
+git remote add origin https://github.com/unknowndev4652/LaZagne.git
+git push -u origin master 
+cd ..
+ls
+git clone https://github.com/unknowndev4652/git.git
+ls
+cd c-program/
+git push 
+cd ../t-ui/
+git push 
+cd ../demo-html/
+git push 
+git pull
+ls
+cd ~/Injamul/project/Git/
+ls
+mkdir metasploit-framework
+cd metasploit-framework/
+git clone https://github.com/rapid7/metasploit-framework.git
+exit
+wget https://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run && wget https://downloads.metasploit.com/data/releases/metasploit-latest-linux-x64-installer.run.sha1 && echo $(cat metasploit-latest-linux-x64-installer.run.sha1)'  'metasploit-latest-linux-x64-installer.run > metasploit-latest-linux-x64-installer.run.sha1 && shasum -c metasploit-latest-linux-x64-installer.run.sha1 && chmod +x ./metasploit-latest-linux-x64-installer.run && sudo ./metasploit-latest-linux-x64-installer.run
+exit
+cd temp/
+ls
+wget https://www.darkoperator.com/installing-metasploit-in-ubunt/
+wget https://exam.webscte.co.in/assets/pdf/JEXPO_2019.pdf
+rm https://exam.webscte.co.in/assets/pdf/JEXPO_2019.pdf
+wget https://exam.webscte.co.in/assets/pdf/JEXPO_2019.pdf
+exit
+vim jexpo-form.txt
+cd ~/Injamul/project/Git/metasploit-framework/
+git clone https://github.com/rapid7/metasploit-framework.git
+nano gitup.txt
+git init
+git add --all 
+git commit -m "Initial commit"
+nano gitup.txt 
+git remote add origin https://github.com/unknowndev4652/metasploit-framework.git
+git push -u origin master
+ls
+nano 
+cd Injamul/project/Git/
+ls
+mmkdir git-tutorial
+mkdir git-tutorial
+cd git-tutorial/
+ls
+echo "# Git Tutorial" > README.md
+ls
+git add README.md 
+git init
+git add README.md 
+git commit --help
+git commit -m "Initial commit"
+git log
+git show
+ls
+exit
+cd ../metasploit-framework/
+cd ..
+cd /metasploit-framework/
+cd ./metasploit-framework/
+ruby -v
+ls
+cat README.md 
+rm gitup.txt 
+git status 
+git commit -a
+git log
+git status 
+git status -s
+ls .git
+nano .git/COMMIT_EDITMSG 
+git log
+nano .git/COMMIT_EDITMSG 
+git log
+ls
+cd Injamul/project/Git/git-tutorial/
+ls
+git remote add origin https://github.com/unknowndev4652/git-tutorial.git
+git push -u origin master
+git branch readme-edits
+git checkout readme-edits 
+git checkout 
+git branch 
+nano README.md 
+git status -s
+git status
+git add README.md 
+git commit -m "Finished README"
+git checkout master 
+cat README.md 
+git checkout readme-edits 
+cat README.md 
+git merge readme-edits 
+git branch 
+git checkout master 
+git merge readme-edits 
+cat README.md 
+git checkout master 
+git branch 
+git branch -d readme-edits 
+git branch 
+git show
+git log 
+git reset HEAD 
+git log
+git branch readme-modify
+git checkout readme-modify 
+nano README.md 
+git diff
+git checkout master 
+git diff
+git diff master 
+git diff readme-modify 
+cat README.md ~
+cat README.md 
+git diff
+git log
+git branch 
+git branch -d readme-modify 
+git branch 
+git branch v_1.1
+cd ..
+ls
+cd LaZagne/
+ls
+cat CHANGELOG 
+cd hub-master/
+git init
+git commit -m "Initial commit"
+git add --all
+git commit -m "Initial commit"
+git log
+git show
+cd ../git-master/
+git add --all
+git init
+git add --all
+git commit -m "Initial commit"
+cat .gitignore 
+make
+ls
+rm -rf *.o
+git status 
+git status -s
+make
+git status -s
+rm -rf *.o
+ls
+git status -s
+mv list.h ~/Injamul/
+git status -s
+mv ~/Injamul/list.h ./
+git status -s
+git remote add origin https://github.com/unknowndev4652/git.git
+cd ../hub/
+git remote add origin https://github.com/unknowndev4652/hub.git
+cd Chess-2D/
+ls
+git init
+echo "# Chess 2D" > README.md
+ls
+nano README.md 
+git add README.md 
+git add -A
+git status 
+git commi
+git status 
+git commit -m "Initial commit"
+ls
+git status 
+mkdir src
+git mv css1.css ./src/
+git mv js1.js ./src/
+git status 
+nano index.html 
+git status 
+ls
+git mv index.html Chess.html
+ls
+git status -s
+google-chrome Chess.html 
+git add -A
+git log
+git commit -m "Modified Directory structure"
+git status -s
+git status
+ls
+cd ..
+cd calculator-html/
+ls
+nano README.md
+ls
+mkdir src
+mv css1.css 
+mv css1.css ./src/
+vim calc.html 
+nano calc.html 
+mv calc.html Calculator.html
+ls
+google-chrome Calculator.html 
+ls
+gi init
+git init
+git add -A
+ls
+git status 
+git commit -m "Initial commit"
+git log
+ls
+cd ../
+cd tmp/
+cd paint-html/
+ls
+google-chrome index.html 
+ls
+git init
+mv index.html paint.html
+git add -A
+git commit "First commit"
+git commit -m "First commit"
+git branch increase pad
+git branch -d -A
+git branch 
+git branch increase-pad
+git branch 
+git checkout increase-pad 
+nano src/css1.css 
+google-chrome paint.html 
+git reset HEAD
+git status -s
+git reset master 
+git reset HEAD
+git rm -cached src/css1.css 
+git rm --cached src/css1.css 
+ls src/
+git status 
+cat src/css1.css 
+nano src/css1.css 
+git status 
+git checkout master 
+cat src/c
+cat src/css1.css 
+git branch -d increase-pad 
+git branch v-1
+git checkout v-1 
+ls
+nano paint.html 
+ls
+cat paint.html 
+git checkout master 
+cat paint.html 
+git checkout v-1 
+git status -s
+ls
+cat src/css1.css 
+git add -A
+git commit -m "increase pad size"
+git checkout v-1 
+git checkout master 
+git merge v-1 
+git branch -d
+git branch -d v-1 
+git branch
+git log
+google-chrome paint.html 
+ls
+cd ..
+ls
+mv paint-html/ ../Git/
+ls
+ls ../Git/
+ls
+cd snake-bug/
+ls
+mkdir src
+ls
+mv *.css ./src/
+mv *.js ./src/
+ls
+google-chrome index.html 
+ls
+mv index.html snake.html
+ls
+git init
+git add -A
+google-chrome snake.html 
+git commit -m "Initial commit"
+l
+ls
+git log
+nano .gitignore
+nano Add-restart.todo
+git status -s
+cd ..
+mv snake-bug/ snake-2d
+mv snake-bug/ ../Git/
+mv snake-2d/ ../Git/
+ls
+ls --help
+ls -t 
+man ls -t 
+ls -t ../Git/
+ls -1t ../Git/
+ld
+ls
+mv dot-bug/ ball-game
+ls
+mv ball-game/ ../Git/
+cd ../Git/ball-game/
+ls
+mkdir 
+mkdir src
+mv [css1.css,js1.js] ./src/
+mv css1.css ./src/
+mv js1.js ./src/
+ls
+mv index.html ball-game.html
+ls
+nano ball-game.html 
+ls
+google-chrome ball-game.html 
+ls
+cat ball-game.html 
+cat src/js1.js 
+nano src/js1.js 
+nano src/css1.css 
+git init
+git add -A
+git commit -m "Initial commit"
+ls
+cd ..
+ls -1t
+mkdir Game
+ls -1t
+git init
+echo "# Snake 2d" > README.md
+git add README.md snake.html src/*
+git status -s
+cat .gitignore 
+rm .gitignore 
+git status -s
+rm Add-restart.todo 
+git status -s
+git commit -m "Initial commit"
+git status -s
+git log
+git branch add-restart
+git checkout add-restart 
+rm -rf .git/
+cd ..
+rm -rf ./*/.git/
+cd ball-game/
+cd ..
+cd paint-html/
+cd ..
+cd snake-2d/
+ls
+cd ..
+ls
+cd ..
+ls -1t
+wc | ls
+wc | ls -l
+wc < ls
+ls
+ls -l
+lsblk
+lsblk --help
+fdisk
+fdisk -l
+sudo fdisk -l
+lsblk
+sudo lsblk
+cd /dev/sda1
+ls
+cd /dev/
+ls
+ls sdb
+cat sdb
+sudo cat sdb
+lsblk
+ls -la
+ls -l
+ls -1
+git init
+git add -A
+git status -s
+git commit --help
+git commit --author="Meheraj Hossain Sardar" -m "Initial commit by Raj"
+git commit --author="Meheraj Hossain Sardar<noreply@gmail.com>" -m "Initial commit by Raj"
+git com
+git log
+ls
+cd ..
+ls
+git branch 
+ls
+mv raj raj-1
+ls
+cd water-pollution-html/
+ls
+git status 
+git status -s
+git add -A
+ls
+git commit -m "Recreated, Fixed and modified web pages"
+git status -s
+git log
+git branch dir-structure
+cd ..
+ls
+git checkout dir-structure 
+ls
+mv *.jpg ./images/
+ls
+echo "# Water Pollution" > README.md
+nano README.md 
+git status -s
+git add -A
+git commit -m "Modified directory structure"
+git status 
+git log
+ls
+git log
+git checkout master 
+ls
+git merge dir-structure 
+git diff
+git show
+ls
+git status -s
+git status 
+git branch 
+git branch -d dir-structure 
+git branch 
+git log 
+cd ..
+ls
+whoami
+ls
+pwd
+ls
+ls -t1
+nmcli connection list
+nmcli connection --list
+nmcli connection show
+nmcli connection delete Profile\ 1
+nmcli connection delete id
+nmcli connection delete the
+nmcli connection show
+nmcli connection delete anbox-net 
+nmcli con add type bridge ifname anbox0 -- connection.id anbox-net ipv4.method shared ipv4.addresses 192.168.250.1/24
+nmcli connection delete anbox-net 
+nmcli con add type bridge ifname anbox0 -- connection.id anbox-net ipv4.method shared ipv4.addresses 192.168.250.1/24
+nmcli connection show
+nmcli connection delete open
+nmcli connection delete open\ 1
+nmcli connection delete open\ 2
+nmcli connection delete open\ 3
+nmcli connection delete open\ 4
+clear
+nmcli connection show
+clea
+sudo reboot
+cd Injamul/project/python/
+ls
+cat Enter-your-name.py 
+sudo apt-get install adobe-flashplugin
+cat home3.html 
+rm home3.html 
+cat cs.txt 
+git status -s
+git diff master 
+git status -s
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get upgrade
+sudo apt-get brasero
+sudo apt-get Brasero
+sudo apt-get install brasero
+sudo dropbox update
+sudo apt-get install python-gpgme
+sudo dropbox update
+sudo apt-get update 
+sudo apt-get upgrade 
+android 
+android list device
+android list avd
+android 
+android list sdk
+sudo reboot now
+lsblk
+ps
+htop
+sudo reboot now
+free -g
+free 
+free -m
+sudo apt-get update --fix-missing 
+sudo apt-get upgrade --fix-missing 
+youtube-dl -cit https://www.youtube.com/watch?v=u9J1gNcCmqY
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+ls /usr/local/bin/youtube-dl
+cd /usr/local/bin/youtube-dl
+youtube-dl --version
+cp -rf  /usr/local/bin/youtube-dl ~/Injamul/tmp/
+sudo curl -L https://yt-dl.org/downloads/latest/youtube-dl -o /usr/local/bin/youtube-dl
+sudo chmod a+rx /usr/local/bin/youtube-dl
+youtube-dl --version
+sudo apt-get update
+sudo apt-get upgrade
+dmesg
+sudo reboot
+cd Music/study-music/
+youtube-dl -x --audio-format mp3 https://www.youtube.com/watch?v=G5xBkuDT8Vk
+ls
+cd Injamul/tmp/
+$ wget http://ftp.us.debian.org/debian/pool/main/m/make-dfsg/make_3.81-8.2_amd64.deb
+$ sudo dpkg -i make_3.81-8.2_amd64.deb
+$ sudo apt-mark hold make
+wget http://ftp.us.debian.org/debian/pool/main/m/make-dfsg/make_3.81-8.2_amd64.deb
+sudo dpkg -i make_3.81-8.2_amd64.deb
+sudo apt-mark hold make
+$ sudo dpkg --add-architecture i386
+$ sudo dpkg --add-architecture amd64
+sudo dpkg --add-architecture i386
+sudo dpkg --add-architecture amd64
+sudo apt install --no-install-recommends autoconf2.13 bison bzip2 ccache curl flex gawk gcc g++ g++-multilib git lib32ncurses5-dev lib32z1-dev libgconf2-dev zlib1g:amd64 zlib1g-dev:amd64 zlib1g:i386 zlib1g-dev:i386 libgl1-mesa-dev libx11-dev make zip lzop libxml2-utils openjdk-8-jdk nodejs unzip python
+sudo chmod a+r /etc/udev/rules.d/51-android.rules
+nano ~/.android/adb_usb.ini
+lsusb
+lsusb
+nano ~/.local/share/applications/firefox_dev.desktop
+chmod +x ~/.local/share/applications/firefox_dev.desktop
+exit
+cat /sys/devices/system/cpu/smt/control
+cat /etc/rc.local
+sudo reboot 
+service sudo /etc/init.d/bluetooth restart
+asifmd
+service sudo /etc/init.d/bluetooth restart
+sudo apt-get install pulseaudio-module-bluetooth* ubuntu-desktop* unity-control-center*
+sudo apt-get install blueman bluez-utils bluez bluetooth
+sudo apt-get install blueman bluez:i386 bluetooth
+sudo apt-get install bluez
+sudo apt-get install blueman bluez-utils bluez bluetooth
+sudo apt-get install blueman  bluez bluetooth
+service sudo /etc/init.d/bluetooth restart
+service bluetooth restart
+sudo apt-get update 
+sudo apt-get upgrade 
+hciconfig - configure Bluetooth devices
+sudo pactl unload-module module-bluetooth-discover
+sudo pactl load-module module-bluez5-discover
+sudo pactl load-module module-bluez5-discover 
+sudo pactl load-module module-bluez5-discovery
+sudo pactl load-module module-bluez5-discover
+
+service /etc/init.d/bluetooth restart
+sudo apt-get install blueman bluez:i386 bluetooth
+sudo service /etc/init.d/bluetooth restart
+sudo apt-get install blueman bluez:i386 bluetooth gnome-control-center*
+sudo apt-get remove unity-control-center*
+sudo apt-get update --fix-missing 
+sudo apt-get upgrade 
+sudo apt-get install unity-control-center*
+sudo apt-get upgrade 
+sudo service /etc/init.d/bluetooth restart
+sudo apt-get purge blueman bluez-utils bluez
+sudo apt-get purge blueman bluez-utils bluez bluetooth
+sudo apt-get install blueman bluez:i386 bluetooth
+sudo apt-get install pulseaudio-module-bluetooth* ubuntu-desktop*
+blueman
+blueman-manager 
+sudo apt-get upgrade 
+sudo reboot
+ssh Heartfull-PC@192.168.0.105
+./assaultcube.sh 
+sudo apt-get install libsdl1.2debian libsdl-image1.2 zlib1g libogg0 libvorbis0a libopenal1 libcurl3
+sudo reboot recovery
+sudo reboot 
+sudo lsof -i tcp:80
+sudo apt-get update 
+sudo apt-get upgrade 
+ssh Heartfull-PC@172.16.0.110
+     sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get update 
+sudo apt-get upgrade 
+pactl list short | grep blue
+sudo cp ~/BCM-0a5c-21d7.hcd  /lib/firmware/brcm
+cd Documents/
+ls
+cd bluetooth-solution/
+ls
+sudo cp ~/BCM-0a5c-21d7.hcd  /lib/firmware/brcm
+sudo cp ./BCM-0a5c-21d7.hcd  /lib/firmware/brcm
+ls
+cd /lib/firmware/brcm
+ls
+sudo cp BCM43142A0-0a5c-21d7.bcm BCM.bcm
+sudo modprobe -r btusb
+sudo modprobe btusb
+dmesg | grep -i blu
+nmap -v -A scanme.nmap.org
+nmap --script ssl-enum-ciphers -p 443 wizardzines.com
+tshark
+sudo apt installtshark
+sudo apt install tshark
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get autoclean 
+nmap -v -A localhost
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get purge vlc
+sudo apt-get upgrade 
+sudo apt-get install vlc
+sudo apt-get install vlc  vlc-bin vlc-l10n vlc-plugin-notify vlc-plugin-qt vlc-plugin-samba
+cd /usr/bin/vlc
+cd /usr/lib/x86_64-linux-gnu/
+ls
+cd vlc
+ls
+ls lua/
+ls plugins/
+ls lua/
+ls lua/playlist/
+ls lua/
+ls lua/sd/
+ls lua/extensions/
+ls lua/intf/
+ls lua/modules/
+ls
+cd ..
+mkdir ~/vlc-bak
+cp -rf ./vlc/ ~/vlc-bak/
+cd /usr/share/vlc/
+ls
+ls utils/
+ls skins2/
+ls lua/
+ls
+mkdir ~/vlc-bak/share
+cp -rf ../vlc/ ~/vlc-bak/share/
+rm -rf ./*
+sudo rm -rf ./*
+ks
+ls
+cd 
+cd /usr/share/vlc/
+ls
+cd ..
+ls
+rmdir vlc/
+sudo rmdir vlc/
+cd /usr/lib/x86_64-linux-gnu/vlc/
+sudo rm -rf ./*
+ls
+cd ..
+sudo rmdir vlc/
+cd 
+whereis vlc
+sudo apt-get remove --purge vlc
+whereis vlc
+sudo apt-get remove --purge vlc
+whereis vlc
+cd /usr/bin/
+ls  vlc
+rm vlc
+sudo rm vlc
+whereis vlc
+sudo apt-get remove --purge vlc
+sudo apt-get install vlc
+whereis vlc
+cd /usr/share/man/man1/
+ls
+ls vlc
+ls vlc*
+whereis vlc
+sudo apt-get remove --purge vlc
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get install vlc
+whereis vlc
+vlc
+sudo apt  install vlc-bin
+vlc-bin
+sudo apt-get remove vlc
+sudo apt-get remove --purge vlc
+ls 
+rm vlc.1.gz 
+sudo rm vlc.1.gz 
+whereis vlc
+sudo mv vlc-wrapper.1.gz ~/vlc-bak/
+sudo apt-get autoremove 
+whereis vlc
+whereis 
+sudo apt-get autoclean 
+sudo apt-get -s clean 
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get autoremove 
+sudo apt-get remove --purge vlc
+sudo apt-get autoremove 
+sudo apt-get autoclean 
+sudo apt-get -s clean 
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo reboot 
+ls
+find *.exe
+find */*.exe
+rm */*.exe
+rm */*/*.exe
+rm */*/*.exe
+rm *.exe
+rm */*.exe
+rm */*/*.exe
+rm *.exe
+rm */*.exe
+rm */*/*.exe
+rm */.*/*.exe
+tree
+find */*.exe
+rm */*.exe
+rm */*/*.exe
+rm */*/*/*.exe
+rm */*/*/*/*.exe
+rm */*/*/*/*/8.exe
+rm */*/*/*/*/*.exe
+rm */*/*/*/*/*/*.exe
+rm */*/*/*/*/*/*/*.exe
+rm */*/*/*/*/*/*/*/*.exe
+rm */*/*/*/*/*/*/*/*/*.exe
+journalctl --disk-usage 
+sudo reboot 
+htop
+adb reboot
+cd Android/Sdk/emulator/
+ls
+cd Android/Sdk/build-tools/
+cd ../tools/
+ls
+cd bin/
+ls
+avdmanager 
+avdmanager list
+avdmanager 
+avdmanager list avd
+cd ..
+cd 
+ls
+cd Android/Sdk
+ls
+emulator -avd Nexus_5_API_27
+cd emulator/
+ls
+./emulator 
+./emulator -avd Nexus_5_API_27
+cd Android/Sdk/emulator/ && ./emulator -avd Nexus_5_API_27 &
+sudo reboot
+cd Android/Sdk/emulator/ && ./emulator -avd Nexus_5_API_27 &
+s
+ls
+sl
+LS
+sl
+sudo apt-get install gnome
+~~c
+sudo apt-get update --fix-missing 
+sudo apt-get install gnome
+sudo apt-get remove gnome-chess 
+sudo apt-get update 
+sudo apt-get upgrade 
+exit
+cd  Injamul/Software/
+ls
+wine cmd
+ls
+exit
+cd Injamul/project/Git/demo-html/
+nano ~/temp/MIT-license
+ls
+git pull origin HEAD 
+git pull origin master 
+git branch 
+ls
+git status 
+cd ../calculator-html/
+git pull origin master 
+ls
+cd ../demo-html/
+cd ..
+ls
+git clone https://github.com/mrinjamul/mrinjamul.github.io.git
+ls
+cd mrinjamul.github.io/
+echo "Hello World" > index.html
+ls
+git add -A
+git commit -m "Initial commit"
+git push -u origin master 
+git branch 
+ls
+cat index.html 
+ls
+nano CNAME
+git push -u origin master 
+ls
+cat C
+cat CNAME 
+git add -A
+git commit -m "added subdomain configuration" 
+git push -u origin master 
+cat C
+cat CNAME 
+nano index.html 
+ls
+git commit -m "Modified index.html"
+git add -A
+git commit -m "Modified index.html"
+git push -u origin master 
+git del CNAME
+git delete CNAME
+git remove CNAME
+nano CNAME 
+git add -A
+git commit -m "Initial commit"
+git push -u origin master 
+rm CNAME 
+git commit -m "removed CNAME"
+git add -all
+git add --all
+git commit -m "removed CNAME"
+git push -u origin master 
+ls
+cat index.html 
+rm -rf ./.git/
+ls
+git remote add origin https://github.com/mrinjamul/mrinjamul.github.io.git
+git push -u origin master
+git init
+git add --all
+ls
+git status 
+git commit -m "Initial commit"
+git remote add origin https://github.com/mrinjamul/mrinjamul.github.io.git
+git push -u origin master
+exit
+cd Injamul/project/Git/mrinjamul.github.io/
+ls
+nano CNAME
+git add --all
+git commit -m "added subdomain configuration"
+git lo
+git log
+git push -u origin master 
+git 
+ls
+git pull
+ls
+git pull -u origin master 
+git pull origin master 
+ls
+git log
+cat _config.yml 
+ls
+git status 
+git add --all
+git commit -m "Initial commit"
+git push -u origin master 
+git push  origin master 
+git pull  origin master 
+git push -u origin master 
+cd Android/Sdk/emulator/ && ./emulator -avd Nexus_5_API_27 &
+htop
+cd ..
+ls
+cd NodeJs/
+ls
+clear
+mkdir demo1
+ls
+cd demo1/
+ls
+clear
+ls
+npm init
+ls
+cat package.json 
+clear
+ls
+clear
+ls
+npm install --save express
+clear
+ls
+vim
+npm start
+vim
+npm install --save nodemon
+npm start
+exit
+vim
+exit
+ls
+clear
+ls
+cd Documents/
+ls
+clear
+cd
+ls
+clear
+cd /mnt/Storage/
+ls
+cd Projects/
+ls
+clear
+ls
+clear
+ls
+pwd
+df -lh
+ls
+cd
+ls
+clear
+ls
+cd Videos/
+ls
+cd
+ls
+clear
+ls
+mkdir Works
+cd Works/
+ls
+npm -v
+npm install -g npm
+clear
+ls
+clear
+mkdir ReactJs
+mkdir NodeJs
+ls
+cd ReactJs/
+ls
+clear
+create-react-app demo1
+npm start
+ls
+cd demo1/
+ls
+clear
+pwd
+npm start
+npm start --port 8080
+vim
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+cd NodeJs/
+ls
+cd demo1/
+ls
+npm start
+clear
+ls
+cd ..
+ls
+mkdir mockserver
+cd mockserver/
+ls
+clear
+vim db.json
+npm init
+npm install --save json-server
+ls
+vim package.json 
+ls
+clear
+npm start
+ls
+clear
+ls
+vim db.json 
+npm start
+curl -X POST http://localhost/users/ -d "{ \"id\":1, \"name\":\"Injamul\"}"
+curl -X POST http://localhost:8080/users/ -d "{ \"id\":1, \"name\":\"Injamul\"}"
+vim db.json 
+curl -X POST http://localhost:8080/users/ -d "{id:2, name:"Asif"}"
+vim db.json 
+curl -X POST http://localhost:8080/users/ -H "Content-Type: application/json" -d '{"id":2, "name":"Asif"}'
+curl -X POST http://localhost:8080/users/ -H "Content-Type: application/json" -d '{"name":"Asif"}'
+curl -X POST http://localhost:8080/users/1/books/ -H "Content-Type: application/json" -d '{"name":"Java"}'
+curl -X POST http://localhost:8080/users/1/books/ -H "Content-Type: application/json" -d '{"name":"NodeJs"}'
+curl -X POST http://localhost:8080/users/ -H "Content-Type: application/json" -d '{"name":"Injamul"}'
+curl -X POST http://localhost:8080/users/2/books/ -H "Content-Type: application/json" -d '{"name":"NodeJs"}'
+curl -X POST http://localhost:8080/users/2/books/ -H "Content-Type: application/json" -d '{"name":"Python"}'
+cat db.json 
+sudo apt-get update 
+sudo apt-get upgrade 
+cd Android/Sdk/emulator/ && ./emulator -avd Nexus_5_API_27 &
+exit
+cd Works/
+ls
+clear
+mkdir Firebase
+cd Firebase/
+ls
+clear
+firebase
+firebase-tools
+npm install -g firebase-tools
+sudo npm install -g firebase-tools
+clear
+ls
+create-react-app mywebsite
+cd mywebsite/
+ls
+clear
+ls
+firebase init
+firebase login
+clear
+firebase init
+ls
+clar
+ls
+clear
+ls
+cd build/
+;s
+ls
+la
+ls -lah
+cat index.html 
+clear
+ls
+cd ..
+ls
+npm start
+npm run bild
+npm run build
+firebase deploy
+clear
+ls
+clear
+ls
+ping injamul.tk
+dig injamul.tk
+dig injamul.tk 80
+dig injamul.tk 443
+nslookup injamul.tk
+nslookup injamul.tk 151.101.65.195
+nslookup injamul.tk 151.101.1.195
+ping 151.101.1.195
+ping 151.101.65.195
+nslookup 151.101.1.195
+nslookup 151.101.65.195
+dig 151.101.1.195
+dig 151.101.1.195 injamul.tk
+dig 151.101.65.195 injamul.tk
+ping injamul.tk
+ping 151.101.1.195
+ping injamul.tk
+ping www.injamul.tk
+nslookup injamul.tk
+nslookup www.injamul.tk
+nslookup www.injamul.tk 151.101.1.195
+nslookup www.injamul.tk
+dig www.injamul.tk
+dig injamul.tk
+dig www.injamul.tk
+clear
+vim
+screen
+screen -S reactbackend
+vim
+exit
+npm start
+exit
+npm start
+exit
+cd
+cd .ssh/
+ls
+cat config 
+clear
+ssh-keygen -t rsa -C "mrinjamul@gmail.com"
+cat id_rsa.pub 
+ls
+exit
+screen -ls
+screen -r reactbackend 
+screen -ls
+screen -r reactbackend 
+screen -ls
+screen -S reactbackend
+cd Works/
+ls
+cd Firebase/
+ls
+cd mywebsite/
+;s
+ls
+clrea
+clear
+ls
+npm run build
+npm run serve -s build
+firebase deploy
+git status
+git add .
+vim .gitignore 
+git add .
+git commit -m "React with Firebase configured"
+git status
+git remote add origin https://github.com/mrinjamul/mywebsite.git
+git remote -v
+git remote rm origin
+git remote -v
+git remote add origin git@github.com:mrinjamul/mywebsite.git
+git push origin master
+s
+ls
+git log
+ping google.com
+exit
+vim
+exit
+cd Works/Firebase/mywebsite/
+tree
+ls
+ls public/*
+vim
+cd
+ls
+rm -rf .vim
+rm -rf .viminfo 
+rm -rf .vim
+ls -la
+wget https://raw.githubusercontent.com/fisadev/fisa-vim-config/master/.vimrc
+vim
+sudo apt-get update 
+sudo apt-get upgrade 
+sudo apt-get autoremove 
+sudo apt-get clean 
+sudo shutdown now -P
+git remote 
+git remote show 
+git remote -rm 
+git remote remove 
+git checkout master 
+ls
+git branch 
+git branch -d v1.2 
+git branch 
+git remote show 
+git remote remove origin 
+git remote show origin 
+git remote remove origin 
+git remote show origin 
+git remote add git@github.com:mrinjamul/mrinjamul.github.io.git
+git remote add -m  git@github.com:mrinjamul/mrinjamul.github.io.git
+git remote add git@github.com:mrinjamul/mrinjamul.github.io.git
+git remote add https://github.com/mrinjamul/mrinjamul.github.io.git
+git remote add origin git@github.com:mrinjamul/mrinjamul.github.io.git
+git remote show origin 
+git pull origin HEAD 
+git branch 
+git pull
+ls
+git pull
+git pull origin master
+ls
+cd ~/Works/
+ls
+mkdir Git
+ls
+cd Git/
+mkdir mrinjamul.github.io
+cd mrinjamul.github.io/
+ls
+git remote add origin git@github.com:mrinjamul/mrinjamul.github.io.git
+git init 
+git remote add origin git@github.com:mrinjamul/mrinjamul.github.io.git
+git pull origin master
+git show
+git log
+git branch 
+git pull origin HEAD 
+git branch 
+git pull origin v1.2
+git pull origin v2.0
+git branch 
+ls
+git remote show origin 
+git remote prune
+git remote prune v1.2 v2.0
+rm rf ./*
+rm -rf ./*
+cd ..
+cd mrinjamul.github.io/
+rm -rf ./*
+rm -rf ./.git/
+rm -rf ./*
+ls -a
+git init 
+git remote add origin git@github.com:mrinjamul/mrinjamul.github.io.git
+git pull origin HEAD 
+git pull origin master
+git branch 
+ls
+ls -1h
+ls -1a
+tree
+ls -a *
+ls .git/*
+git branch 
+git pull origin master
+git branch v2.0
+git branch v2.0 
+git checkout  v2.0 
+ls
+cat _config.yml 
+npm start
+npm buils
+npm build
+npm build 
+npm run-script build
+ld
+ls
+npm start
+cd Android/Sdk/emulator/ && ./emulator -avd Nexus_5_API_27 &
+sudo apt-get update 
+sudo apt-get upgrade 
+php -S localhost
+php -S localhost:8080
+cd ~/Works/
+ls
+cd g
+cd G
+cd Git/
+ls
+cd mrinjamul.github.io/
+ls
+npm run build
+cat package.json 
+npm start
+ls
+npm install --save gh-pages
+cd ..
+ls
+create-react-app myapp
+cd myapp/
+ls
+npm install --save gh-pages
+ls
+vim package.json 
+npm run deploy
+git status 
+git remote add origin git@github.com:mrinjamul/myapp.git
+git push -u origin master
+git status 
+git add -A
+git commit -m "added to github pages"
+git push -u origin master
+git remote add origin git@github.com:mrinjamul/myapp.git
+npm run deploy
+ls
+cd ..
+cd mrinjamul.github.io/
+ls
+vim package.json 
+npm install --save gh-pages
+npm run deploy
+ls
+git status 
+ls
+git add -A
+ls
+git commit -m "added Reactjs to github page"
+git merge v2.0 master 
+git merge  master 
+git checkout master 
+git merge v2.0 
+git push -u origin master
+git checkout v2.0 
+ls
+git push
+git checkout master 
+git push
+git checkout v2.0 
+git push
+ls
+git checkout v2.0 
+git checkout master 
+npm run deploy
+git branch -d v2.0 
+git push -u origin HEAD 
+git push -u origin origin/v2.0 
+git branch 
+git pull origin HEAD 
+git pull origin master 
+git remote remove v2
+git branch 
+npm run build
+npm run deploy
+cat package.json 
+ls
+rm _config.yml 
+git add _config.yml 
+git commit -m "remove github theme"
+git push -u origin master 
+ls
+cd Android/Sdk/emulator/ && ./emulator -avd Nexus_5_API_27 &
+nodejs -v
+exit
+create-react-app my-app
+cd my-app/
+ls
+cd src/
+ls
+rm -f *
+ls
+cd ..
+ls
+ls src/
+cd src/
+touch index.css
+touch index.js
+vim index.js 
+npm start
+ls
+git status 
+git log
+git log --oneline 
+git checkout 61a4be6
+git revert  61a4be6
+git stash index.*
+git stash drop index.js
+git stash clear index.js
+git stash index.js
+git stash show 
+git revert  61a4be6
+rm *
+ls
+git revert  61a4be6
+ls
+cd ..
+cd my-app/
+ls
+git log
+git log --oneline 
+git revert 53971a9
+ls
+cd ..
+cd my-app/
+ls
+cd src/
+ls
+git branch 
+git checkout master 
+ls
+git log
+ls
+git merge HEAD 
+git branch 
+npm start
+cat App.js 
+cat *
+cd Android/Sdk/emulator/ && ./emulator -avd Nexus_5_API_27 &
+tar --help
